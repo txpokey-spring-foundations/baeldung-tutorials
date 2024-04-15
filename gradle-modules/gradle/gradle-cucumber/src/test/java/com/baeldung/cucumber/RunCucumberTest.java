@@ -5,10 +5,11 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-  plugin = {"pretty", "html:target/cucumber-report.html"},
-  features = {"src/test/resources"}
-)
+//@CucumberOptions(
+//    plugin = {"pretty", "html:out/cucumber/cucumber-report.html"},
+//    glue = {"com.baeldung.cucumber"},
+//    features = {"src/test/resources"}
+//)
 public class RunCucumberTest {
 
 }
